@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mey Tranças | Site Institucional</title>
+  <meta
+    name="description"
+    content="Mey Tranças - salão especializado em tranças com serviços, portfólio e contato."
+  />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <!-- Cabeçalho fixo com navegação principal -->
+  <header class="site-header" id="topo">
+    <div class="container header-content">
+      <a class="logo" href="#inicio" aria-label="Mey Tranças, voltar para o início">
+        Mey Tranças
+      </a>
+      <nav class="main-nav" aria-label="Menu principal">
+        <a href="#inicio" class="nav-link">Início</a>
+        <a href="#servicos" class="nav-link">Serviços</a>
+        <a href="#portfolio" class="nav-link">Portfólio</a>
+        <a href="#depoimentos" class="nav-link">Depoimentos</a>
+        <a href="#contato" class="nav-link">Contato</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Seção hero -->
+    <section id="inicio" class="section hero" aria-labelledby="titulo-hero">
+      <div class="container hero-content">
+        <div>
+          <p class="eyebrow">Tranças com estilo e cuidado</p>
+          <h1 id="titulo-hero">Realce sua beleza com tranças feitas sob medida.</h1>
+          <p class="hero-text">
+            Atendimento acolhedor, técnicas modernas e resultados duradouros para você se
+            sentir confiante todos os dias.
+          </p>
+          <a class="button" href="#">Agendar pelo WhatsApp</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção serviços -->
+    <section id="servicos" class="section" aria-labelledby="titulo-servicos">
+      <div class="container">
+        <header class="section-header">
+          <h2 id="titulo-servicos">Serviços</h2>
+          <p>Escolha o estilo ideal para o seu momento.</p>
+        </header>
+        <div class="grid cards-grid">
+          <article class="card">
+            <h3>Box Braids Clássicas</h3>
+            <p>Tranças individuais com acabamento uniforme.</p>
+            <span class="price">A partir de R$ --</span>
+          </article>
+          <article class="card">
+            <h3>Tranças Nagô</h3>
+            <p>Designs criativos alinhados ao couro cabeludo.</p>
+            <span class="price">A partir de R$ --</span>
+          </article>
+          <article class="card">
+            <h3>Twists</h3>
+            <p>Textura leve e movimento natural.</p>
+            <span class="price">A partir de R$ --</span>
+          </article>
+          <article class="card">
+            <h3>Entrelace</h3>
+            <p>Volume e durabilidade com fibras confortáveis.</p>
+            <span class="price">A partir de R$ --</span>
+          </article>
+          <article class="card">
+            <h3>Tranças Afro</h3>
+            <p>Estilo tradicional com toque moderno.</p>
+            <span class="price">A partir de R$ --</span>
+          </article>
+          <article class="card">
+            <h3>Tranças Kids</h3>
+            <p>Delicadeza e conforto para crianças.</p>
+            <span class="price">A partir de R$ --</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção portfólio -->
+    <section id="portfolio" class="section section-alt" aria-labelledby="titulo-portfolio">
+      <div class="container">
+        <header class="section-header">
+          <h2 id="titulo-portfolio">Portfólio</h2>
+          <p>Conheça alguns estilos que já realizamos.</p>
+        </header>
+        <div class="grid portfolio-grid" aria-label="Galeria de trabalhos">
+          <div class="portfolio-item">Foto 1</div>
+          <div class="portfolio-item">Foto 2</div>
+          <div class="portfolio-item">Foto 3</div>
+          <div class="portfolio-item">Foto 4</div>
+          <div class="portfolio-item">Foto 5</div>
+          <div class="portfolio-item">Foto 6</div>
+          <div class="portfolio-item">Foto 7</div>
+          <div class="portfolio-item">Foto 8</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção depoimentos -->
+    <section id="depoimentos" class="section" aria-labelledby="titulo-depoimentos">
+      <div class="container">
+        <header class="section-header">
+          <h2 id="titulo-depoimentos">Depoimentos</h2>
+          <p>O que nossas clientes dizem.</p>
+        </header>
+        <div class="grid testimonials-grid">
+          <article class="card testimonial">
+            <h3>Mariana Souza</h3>
+            <p>“Meu cabelo ficou incrível e o atendimento foi impecável.”</p>
+          </article>
+          <article class="card testimonial">
+            <h3>Rafaela Lima</h3>
+            <p>“Ambiente acolhedor e resultado acima das expectativas.”</p>
+          </article>
+          <article class="card testimonial">
+            <h3>Camila Dias</h3>
+            <p>“Voltei a me sentir confiante com minhas tranças.”</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção contato -->
+    <section id="contato" class="section section-alt" aria-labelledby="titulo-contato">
+      <div class="container">
+        <header class="section-header">
+          <h2 id="titulo-contato">Contato</h2>
+          <p>Fale com o Mey Tranças e agende seu horário.</p>
+        </header>
+        <div class="contact-grid">
+          <div class="contact-info">
+            <p><strong>Telefone:</strong> (11) 90000-0000</p>
+            <p><strong>Instagram:</strong> @meytrancas</p>
+            <p><strong>Bairro/Cidade:</strong> Centro - São Paulo/SP</p>
+          </div>
+          <form class="contact-form" id="form-contato" novalidate>
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" name="nome" required />
+
+            <label for="telefone">Telefone</label>
+            <input type="tel" id="telefone" name="telefone" required />
+
+            <label for="mensagem">Mensagem</label>
+            <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+
+            <button class="button" type="submit">Enviar</button>
+            <p class="form-feedback" id="mensagem-feedback" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Rodapé -->
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <p>&copy; <span id="ano-atual"></span> Mey Tranças. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
