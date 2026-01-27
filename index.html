@@ -3,24 +3,25 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Mey Tranças | Site Institucional</title>
-  <meta
-    name="description"
-    content="Mey Tranças - salão especializado em tranças com serviços, portfólio e contato."
-  />
+  <meta name="description" content="Mey Tranças — Especialista em nagô. Elevando sua auto-estima com tranças profissionais em Baixo-Moju e região." />
+  <meta property="og:title" content="Mey Tranças | Especialista em Nagô" />
+  <meta property="og:description" content="Tranças profissionais e especialidade em nagô. Agende seu momento agora!" />
+  <meta property="og:type" content="website" />
+  <title>Mey Tranças | Especialista em Nagô — Elevando sua Auto-Estima</title>
   <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
-  <!-- Cabeçalho fixo com navegação principal -->
+  <!-- Header Fixo -->
   <header class="site-header" id="topo">
     <div class="container header-content">
-      <a class="logo" href="#inicio" aria-label="Mey Tranças, voltar para o início">
+      <a class="logo" href="#inicio" aria-label="Mey Tranças - Voltar para o início">
         Mey Tranças
       </a>
       <nav class="main-nav" aria-label="Menu principal">
         <a href="#inicio" class="nav-link">Início</a>
         <a href="#servicos" class="nav-link">Serviços</a>
         <a href="#portfolio" class="nav-link">Portfólio</a>
+        <a href="#precos" class="nav-link">Preços</a>
         <a href="#depoimentos" class="nav-link">Depoimentos</a>
         <a href="#contato" class="nav-link">Contato</a>
       </nav>
@@ -28,132 +29,247 @@
   </header>
 
   <main>
-    <!-- Seção hero -->
+    <!-- Hero com Background Image -->
     <section id="inicio" class="section hero" aria-labelledby="titulo-hero">
+      <div class="hero-background" style="background-image: url('assets/images/hero.jpg');"></div>
+      <div class="hero-overlay"></div>
       <div class="container hero-content">
-        <div>
-          <p class="eyebrow">Tranças com estilo e cuidado</p>
-          <h1 id="titulo-hero">Realce sua beleza com tranças feitas sob medida.</h1>
-          <p class="hero-text">
-            Atendimento acolhedor, técnicas modernas e resultados duradouros para você se
-            sentir confiante todos os dias.
-          </p>
-          <a class="button" href="#">Agendar pelo WhatsApp</a>
+        <div class="hero-text-wrapper">
+          <p class="eyebrow">Especialista em Nagô</p>
+          <h1 id="titulo-hero">Elevando sua Auto-Estima</h1>
+          <p class="hero-subtitle">Tranças profissionais e designs criativos em Baixo-Moju e região</p>
+          <div class="hero-buttons">
+            <a href="https://wa.me/559181045584?text=Ol%C3%A1%21%20Quero%20agendar%20meu%20momento%20no%20Mey%20Tran%C3%A7as.%20%F0%9F%98%8A" target="_blank" rel="noopener noreferrer" class="button button-primary" aria-label="Agende seu momento via WhatsApp">
+              Agende seu momento aqui
+            </a>
+            <a href="#portfolio" class="button button-secondary">Ver Portfólio</a>
+          </div>
         </div>
       </div>
     </section>
 
-    <!-- Seção serviços -->
+    <!-- Serviços -->
     <section id="servicos" class="section" aria-labelledby="titulo-servicos">
       <div class="container">
         <header class="section-header">
           <h2 id="titulo-servicos">Serviços</h2>
-          <p>Escolha o estilo ideal para o seu momento.</p>
+          <p>Especialidades com técnicas modernas e acabamento impecável</p>
         </header>
         <div class="grid cards-grid">
-          <article class="card">
-            <h3>Box Braids Clássicas</h3>
-            <p>Tranças individuais com acabamento uniforme.</p>
-            <span class="price">A partir de R$ --</span>
+          <article class="card service-card">
+            <div class="card-badge">Especialidade</div>
+            <h3>Nagô</h3>
+            <p>Tranças alinhadas ao couro cabeludo com designs criativos e personalizados. Trarás profissional e duradoura.</p>
+            <span class="price">A partir de R$ 40,00</span>
           </article>
-          <article class="card">
-            <h3>Tranças Nagô</h3>
-            <p>Designs criativos alinhados ao couro cabeludo.</p>
-            <span class="price">A partir de R$ --</span>
+          <article class="card service-card">
+            <h3>Tranças</h3>
+            <p>Box braids, ghannabraids, bohobraids e mais. Variedade de estilos para sua personalidade brilhar.</p>
+            <span class="price">A partir de R$ 200,00</span>
           </article>
-          <article class="card">
-            <h3>Twists</h3>
-            <p>Textura leve e movimento natural.</p>
-            <span class="price">A partir de R$ --</span>
-          </article>
-          <article class="card">
-            <h3>Entrelace</h3>
-            <p>Volume e durabilidade com fibras confortáveis.</p>
-            <span class="price">A partir de R$ --</span>
-          </article>
-          <article class="card">
-            <h3>Tranças Afro</h3>
-            <p>Estilo tradicional com toque moderno.</p>
-            <span class="price">A partir de R$ --</span>
-          </article>
-          <article class="card">
-            <h3>Tranças Kids</h3>
-            <p>Delicadeza e conforto para crianças.</p>
-            <span class="price">A partir de R$ --</span>
+          <article class="card service-card">
+            <h3>Masculina</h3>
+            <p>Cortes, nagô com alimentação e designs desenhos especiais. Atendimento focado em qualidade e estilo.</p>
+            <span class="price">A partir de R$ 130,00</span>
           </article>
         </div>
       </div>
     </section>
 
-    <!-- Seção portfólio -->
+    <!-- Portfólio com Filtro -->
     <section id="portfolio" class="section section-alt" aria-labelledby="titulo-portfolio">
       <div class="container">
         <header class="section-header">
           <h2 id="titulo-portfolio">Portfólio</h2>
-          <p>Conheça alguns estilos que já realizamos.</p>
+          <p>Galeria de trabalhos realizados com excelência</p>
         </header>
-        <div class="grid portfolio-grid" aria-label="Galeria de trabalhos">
-          <div class="portfolio-item">Foto 1</div>
-          <div class="portfolio-item">Foto 2</div>
-          <div class="portfolio-item">Foto 3</div>
-          <div class="portfolio-item">Foto 4</div>
-          <div class="portfolio-item">Foto 5</div>
-          <div class="portfolio-item">Foto 6</div>
-          <div class="portfolio-item">Foto 7</div>
-          <div class="portfolio-item">Foto 8</div>
+
+        <!-- Grid de Portfólio -->
+        <div class="grid portfolio-grid" id="portfolio-grid" aria-label="Galeria de trabalhos">
+          <!-- Portfolio Item 1 -->
+          <div class="portfolio-item" data-index="0">
+            <img src="assets/images/480607860_17890271214192362_7252715065130229487_n.jpg" alt="Trabalho de tranças 1" loading="lazy" />
+          </div>
+
+          <!-- Portfolio Item 2 -->
+          <div class="portfolio-item" data-index="1">
+            <img src="assets/images/525884441_17909057223192362_875440776325624270_n.jpg" alt="Trabalho de tranças 2" loading="lazy" />
+          </div>
+
+          <!-- Portfolio Item 3 -->
+          <div class="portfolio-item" data-index="2">
+            <img src="assets/images/590413708_17922507738192362_3734072226865491439_n.jpg" alt="Trabalho de tranças 3" loading="lazy" />
+          </div>
+
+          <!-- Portfolio Item 4 -->
+          <div class="portfolio-item" data-index="3">
+            <img src="assets/images/602089475_17925029436192362_1611621251330621635_n.jpg" alt="Trabalho de tranças 4" loading="lazy" />
+          </div>
+
+          <!-- Portfolio Item 5 -->
+          <div class="portfolio-item" data-index="4">
+            <img src="assets/images/604190807_17925029712192362_4786123225028658037_n.jpg" alt="Trabalho de tranças 5" loading="lazy" />
+          </div>
+
+          <!-- Portfolio Item 6 -->
+          <div class="portfolio-item" data-index="5">
+            <img src="assets/images/607266992_17925731262192362_312222817531184600_n.jpg" alt="Trabalho de tranças 6" loading="lazy" />
+          </div>
+
+          <!-- Portfolio Item 7 -->
+          <div class="portfolio-item" data-index="6">
+            <img src="assets/images/607796427_17925720816192362_4794085810728317102_n.jpg" alt="Trabalho de tranças 7" loading="lazy" />
+          </div>
+
+          <!-- Portfolio Item 8 -->
+          <div class="portfolio-item" data-index="7">
+            <img src="assets/images/610794684_17926948371192362_6266239174257714621_n.jpg" alt="Trabalho de tranças 8" loading="lazy" />
+          </div>
         </div>
       </div>
     </section>
 
-    <!-- Seção depoimentos -->
-    <section id="depoimentos" class="section" aria-labelledby="titulo-depoimentos">
+    <!-- Modal Lightbox (invisível até ativar) -->
+    <div id="lightbox-modal" class="lightbox-modal" role="dialog" aria-labelledby="lightbox-title" aria-hidden="true">
+      <div class="lightbox-backdrop" aria-hidden="true"></div>
+      <div class="lightbox-content">
+        <button class="lightbox-close" aria-label="Fechar galeria"><span aria-hidden="true">×</span></button>
+        <img id="lightbox-image" src="" alt="" class="lightbox-image" />
+        <div class="lightbox-info">
+          <h3 id="lightbox-title"></h3>
+        </div>
+        <button class="lightbox-nav lightbox-prev" aria-label="Foto anterior">‹</button>
+        <button class="lightbox-nav lightbox-next" aria-label="Próxima foto">›</button>
+      </div>
+    </div>
+
+    <!-- Preços -->
+    <section id="precos" class="section" aria-labelledby="titulo-precos">
+      <div class="container">
+        <header class="section-header">
+          <h2 id="titulo-precos">Tabela de Preços</h2>
+          <p>Preços podem variar conforme tamanho, comprimento e modelo</p>
+        </header>
+
+        <div class="prices-grid">
+          <!-- Nagô -->
+          <article class="price-card">
+            <h3>Nagô</h3>
+            <ul class="price-list">
+              <li><span class="price-name">Tiara</span> <span class="price-value">R$ 40 — 70</span></li>
+              <li><span class="price-name">Lateral</span> <span class="price-value">R$ 20 — 35</span></li>
+              <li><span class="price-name">Topo</span> <span class="price-value">R$ 20 — 40</span></li>
+              <li><span class="price-name">Boxeadora</span> <span class="price-value">R$ 80 — 130</span></li>
+            </ul>
+          </article>
+
+          <!-- Tranças -->
+          <article class="price-card">
+            <h3>Tranças</h3>
+            <ul class="price-list">
+              <li><span class="price-name">Boxbraids</span> <span class="price-value">R$ 280</span></li>
+              <li><span class="price-name">Ghannabraids</span> <span class="price-value">R$ 200 — 350</span></li>
+              <li><span class="price-name">Bohobraids</span> <span class="price-value">R$ 280</span></li>
+              <li><span class="price-name">Goddessbraids</span> <span class="price-value">R$ 380</span></li>
+              <li><span class="price-name">Fulanibraids</span> <span class="price-value">R$ 350</span></li>
+              <li><span class="price-name">Gypsy Braids</span> <span class="price-value">R$ 350</span></li>
+            </ul>
+          </article>
+
+          <!-- Masculina -->
+          <article class="price-card">
+            <h3>Masculina</h3>
+            <ul class="price-list">
+              <li><span class="price-name">Nagô com alimentação</span> <span class="price-value">R$ 130</span></li>
+              <li><span class="price-name">Nagô desenhada</span> <span class="price-value">Sob consulta</span></li>
+              <li><span class="price-name">Boxbraids</span> <span class="price-value">R$ 200</span></li>
+            </ul>
+          </article>
+        </div>
+
+        <p class="price-note">💡 Consulte-nos para propostas personalizadas e promoções especiais!</p>
+      </div>
+    </section>
       <div class="container">
         <header class="section-header">
           <h2 id="titulo-depoimentos">Depoimentos</h2>
           <p>O que nossas clientes dizem.</p>
         </header>
         <div class="grid testimonials-grid">
-          <article class="card testimonial">
-            <h3>Mariana Souza</h3>
-            <p>“Meu cabelo ficou incrível e o atendimento foi impecável.”</p>
+          <article class="card testimonial-card">
+            <div class="testimonial-stars">★★★★★</div>
+            <p class="testimonial-text">Adorei o trabalho! Meu cabelo ficou incrível, exatamente como eu imaginava. Profissional muito atenciosa e cuidadosa. Com certeza voltarei!</p>
+            <div class="testimonial-author">
+              <strong>Mariana Souza</strong>
+              <span>Cliente verificada</span>
+            </div>
           </article>
-          <article class="card testimonial">
-            <h3>Rafaela Lima</h3>
-            <p>“Ambiente acolhedor e resultado acima das expectativas.”</p>
+          <article class="card testimonial-card">
+            <div class="testimonial-stars">★★★★★</div>
+            <p class="testimonial-text">Ambiente acolhedor, profissional dedicada e resultado acima das expectativas. Meu cabelo ficou lindo e durou muito tempo. Recomendo demais!</p>
+            <div class="testimonial-author">
+              <strong>Rafaela Lima</strong>
+              <span>Cliente verificada</span>
+            </div>
           </article>
-          <article class="card testimonial">
-            <h3>Camila Dias</h3>
-            <p>“Voltei a me sentir confiante com minhas tranças.”</p>
+          <article class="card testimonial-card">
+            <div class="testimonial-stars">★★★★★</div>
+            <p class="testimonial-text">Voltei a me sentir confiante com minhas tranças. Mey trabalha com muito profissionalismo e carinho. Já indiquei para várias amigas!</p>
+            <div class="testimonial-author">
+              <strong>Camila Dias</strong>
+              <span>Cliente verificada</span>
+            </div>
           </article>
         </div>
       </div>
     </section>
 
-    <!-- Seção contato -->
-    <section id="contato" class="section section-alt" aria-labelledby="titulo-contato">
+    <!-- Contato -->
+    <section id="contato" class="section" aria-labelledby="titulo-contato">
       <div class="container">
         <header class="section-header">
-          <h2 id="titulo-contato">Contato</h2>
-          <p>Fale com o Mey Tranças e agende seu horário.</p>
+          <h2 id="titulo-contato">Entre em Contato</h2>
+          <p>Agende seu momento conosco</p>
         </header>
+
         <div class="contact-grid">
-          <div class="contact-info">
-            <p><strong>Telefone:</strong> (11) 90000-0000</p>
-            <p><strong>Instagram:</strong> @meytrancas</p>
-            <p><strong>Bairro/Cidade:</strong> Centro - São Paulo/SP</p>
+          <div class="contact-info-box">
+            <h3>Informações</h3>
+            <div class="contact-item">
+              <strong>📱 WhatsApp/Telefone:</strong>
+              <p><a href="tel:+559181045584">(91) 98104-5584</a></p>
+            </div>
+            <div class="contact-item">
+              <strong>📍 Região:</strong>
+              <p class="contact-meta"><img src="assets/icons/ChatGPT Image 27 de jan. de 2026, 18_49_28.png" alt="Localização" class="icon">Baixo-Moju e região</p>
+            </div>
+            <div class="contact-item">
+              <strong>📸 Instagram:</strong>
+              <p class="contact-meta"><a href="https://instagram.com/mey.trancas" target="_blank" rel="noopener noreferrer"><img src="assets/icons/ChatGPT Image 27 de jan. de 2026, 18_48_02.png" alt="Instagram @mey.trancas" class="icon">@mey.trancas</a></p>
+            </div>
+            <a href="https://wa.me/559181045584?text=Ol%C3%A1%21%20Quero%20agendar%20meu%20momento%20no%20Mey%20Tran%C3%A7as.%20%F0%9F%98%8A" target="_blank" rel="noopener noreferrer" class="button button-primary" style="margin-top: var(--space-3);">
+              Agende seu momento aqui
+            </a>
           </div>
+
           <form class="contact-form" id="form-contato" novalidate>
-            <label for="nome">Nome</label>
-            <input type="text" id="nome" name="nome" required />
+            <div class="form-group">
+              <label for="nome">Nome completo</label>
+              <input type="text" id="nome" name="nome" placeholder="Seu nome" required aria-required="true" />
+            </div>
 
-            <label for="telefone">Telefone</label>
-            <input type="tel" id="telefone" name="telefone" required />
+            <div class="form-group">
+              <label for="telefone">Telefone</label>
+              <input type="tel" id="telefone" name="telefone" placeholder="(91) 9 8104-5584" required aria-required="true" />
+            </div>
 
-            <label for="mensagem">Mensagem</label>
-            <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+            <div class="form-group">
+              <label for="mensagem">Mensagem</label>
+              <textarea id="mensagem" name="mensagem" placeholder="Conte-nos sobre seu interesse..." rows="5" required aria-required="true"></textarea>
+            </div>
 
-            <button class="button" type="submit">Enviar</button>
-            <p class="form-feedback" id="mensagem-feedback" role="status" aria-live="polite"></p>
+            <button class="button button-primary" type="submit">Enviar para WhatsApp</button>
+            <p class="form-feedback" id="mensagem-feedback" role="status" aria-live="polite" aria-atomic="true"></p>
           </form>
         </div>
       </div>
@@ -164,6 +280,7 @@
   <footer class="site-footer">
     <div class="container footer-content">
       <p>&copy; <span id="ano-atual"></span> Mey Tranças. Todos os direitos reservados.</p>
+      <p class="footer-tagline">Elevando sua auto-estima. 💖</p>
     </div>
   </footer>
 
