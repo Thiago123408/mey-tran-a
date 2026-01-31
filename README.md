@@ -151,5 +151,5 @@ mey-tran-a/
 
 ---
 
-**Desenvolvido**: Mey Tranças — Especialista em Nagô
+**Desenvolvido**: Thiago Gonçalves — Especialista em Nagô
 **Mensagem**: Elevando sua auto-estima. 💖
