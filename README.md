@@ -151,5 +151,5 @@ mey-tran-a/
 
 ---
 
-**Desenvolvido**: Thiago Gonçalves — Especialista em Nagô
+**Desenvolvido**: Thiago Gonçalves BY Duda mey Especialista em Nagô
 **Mensagem**: Elevando sua auto-estima. 💖
